@@ -20,15 +20,32 @@ body, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+#about div{
+  height: 250px;
+}
 
+.benefit-section{
+  display: flex;
+  height: 200px;
+}
+.benefit-img{
+  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
 
 .intro-header {
   /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   color: #f8f8f8;
   background: url(../img/intro-bg.jpg) no-repeat center center;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  height: 300px;
 }
-
+.section-header{
+  font-size: 30px;
+  text-align: center;
+}
 
 
 
