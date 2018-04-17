@@ -26,10 +26,25 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .benefit-section{
   display: flex;
-  height: 200px;
+  height: 250px;
 }
+.benefit-section > div{
+  flex: 1;
+}
+
+.benefit-section.reverse{
+  flex-flow: row-reverse;
+}
+.benefit-section .benefit-info{
+  align-self: center;
+}
+.benefit-info .info-text{
+  width: 80%;
+  margin: auto;
+}
+
 .benefit-img{
-  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background: url(../img/balance.jpg) no-repeat center center;
   background-size: cover;
 }
 
