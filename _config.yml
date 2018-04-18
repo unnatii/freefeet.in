@@ -17,6 +17,9 @@ yet very few of us actually work at improving it. Freefeet just helps."
 markdown: kramdown
 permalink: pretty
 
+sass:
+    sass_dir: _sass
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
