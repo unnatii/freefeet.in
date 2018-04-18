@@ -48,6 +48,12 @@ body, h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media screen and (max-width: 780px) {
+  .benefit-section .info-text{
+    font-size: 1.4rem;
+  }
+}
+
 .benefit-img{
   background: url(../img/balance.jpg) no-repeat center center;
   background-size: cover;
