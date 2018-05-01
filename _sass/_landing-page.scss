@@ -7,9 +7,7 @@ body, html {
 }
 
 
-section{
-  height: 100%;
-}
+
 
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito";
@@ -51,6 +49,11 @@ body, h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 780px) {
   .benefit-section .info-text{
     font-size: 1.4rem;
+  }
+  .projects{
+    .card{
+      width: 100% !important;
+    }
   }
 }
 
